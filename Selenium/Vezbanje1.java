@@ -21,6 +21,7 @@ public class Vezbanje1 {
 		driver.navigate().to("https://www.chess.com/");
 		driver.navigate().to("http://www.perpetualcheck.com/");
 		driver.navigate().back();
+		driver.navigate().refresh();
 		driver.navigate().forward();
 		driver.navigate().back();
 		driver.navigate().back();
