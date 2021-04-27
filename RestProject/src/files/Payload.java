@@ -3,6 +3,7 @@ package files;
 public class Payload {
 	public static String AddPlace() 
 	{
+		
 	
 	return "{\r\n" + "  \"location\": {\r\n" + "    \"lat\": -38.383494,\r\n" + "    \"lng\": 33.427362\r\n"
 			+ "  },\r\n" + "  \"accuracy\": 50,\r\n" + "  \"name\": \"Frontline house\",\r\n"
