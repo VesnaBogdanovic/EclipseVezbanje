@@ -34,7 +34,12 @@ public class Basics {
 		String placeId = js.getString("place_id");
 		System.out.println(placeId);
 
+<<<<<<< HEAD
 		// Update place with new address
+=======
+		// Update place
+		
+>>>>>>> e27efa8d221073a1e96d7b1543fc83ce84ce8b1b
 		String newAddress = "Summer Walk, Africa";
 		given().log().all().queryParam("key", "qaclick123").header("Content-Type", "application/json")
 				.body("{\r\n" + "\"place_id\":\"" + placeId + "\",\r\n" + "\"address\":\"" + newAddress + "\",\r\n"
