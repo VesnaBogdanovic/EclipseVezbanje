@@ -9,6 +9,4 @@ public class ReUsableMethods {
 		return js1;
 	}
 
-
-
 }
